@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    background-color: #232020;
+}
+
+h1 {
+    margin-top: 150px ;
+    color: #ff7315;
+    text-align: center;
+    font-size: 3em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#conteneur_formulaire {
+    width: 850px;
+    height: 140px;
+    margin: 60px auto 50px auto;
+    background-color: #FFF;
+}
+
+#formulaire {
+    display: flex;
+}
+
+#champ_de_saisie {
+    width: 650px;
+    height: 35px;
+    margin: 53px 10px 0 50px;
+    font-size: 1.3em;
+}
+
+#bouton_submit {
+    height: 39px;
+    width: 80px;
+    margin-top: 53px;
+    border: none;
+    border-radius: 3px;
+    background-color: #007DEE;
+    color: #FFF;
+    font-size: 1.0em;
+}
+
+#phrase_erreur {
+    display: none;
+    margin-top: 4px;
+    margin-left: 52px;
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+}
+
+.conteneur_resultat {
+    width: 830px;
+    height: 40px;
+    margin: 15px auto 0 auto;
+    padding-left: 20px;
+    padding-top: 20px;
+    color: #FFF;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.plus {
+    background-color: #f67280;
+}
+
+.moins {
+    background-color: #ffa372;
+}
+
+.fini {
+    background-color : #0c9463;
+}
